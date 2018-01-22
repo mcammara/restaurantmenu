@@ -2,13 +2,18 @@
 <html>
 <head>
     <title>Rossum's Universal Restaurant</title>
-
+    <link id="s1" rel="stylesheet" href="style1.css">
+    <link id="s2" rel="stylesheet" href="style2.css" disabled=true>
 </head>
 <body>
     <div id="main">
         <header>
+                <nav>
+                    Style:
+                    <a href="javascript:s1.disabled=false; s2.disabled=true;">One</a>
+                    <a href="javascript:s2.disabled=false; s1.disabled=true;">Two</a>
+                </nav>
                 <h1>Rossum's Universal Restaurant</h1>
-                <link rel="stylesheet" href="style1.css">
         </header>
 
         <div id="menu">
